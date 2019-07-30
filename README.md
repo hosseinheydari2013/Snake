@@ -1,5 +1,5 @@
 # Snake
-Traditional Snake Game Written in C++
+**Traditional Snake Game Written in C++**
 
 The game starts with a small snake in a 2D domain. As time passes random food particles will be thrown to the domain. When a player collects a food particle, the size of the snake gets bigger. This version is a bit robust and modifications still can be done to make it look better. However, this is an error-free version of the game.
 
