@@ -6,6 +6,5 @@ The game starts with a small snake in a 2D domain. As time passes random food pa
 Note that visualization of the snake game is done using Simple and Fast Multimedia Library (SFML). So, the user is supposed to be able to correctly setup a working environment with the aforementioned library. Moreover, I did not add the SFML lib files here because I was not sure about the licensing policy. However, you may easily download it for free from "https://www.sfml-dev.org/download.php".
 
 
-** Contributors
-
-    - Hosein Heidarifatasmi
+**Contributors**
+- *Hosein Heidarifatasmi* (creator and holder of the repository)
