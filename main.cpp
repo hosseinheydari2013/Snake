@@ -11,47 +11,6 @@
 #include<chrono>
 #include<thread>
 
-
-class B;
-class A
-{
-	int a;
-public:
-	A() :a(5) {};
-	virtual void printa()
-	{
-		std::cout << a << std::endl;
-	}
-	const int accessA() const
-	{
-		return a;
-	}
-	// void convert(B objb);
-};
-
-class B: public A
-{
-	int b;
-public:
-	B() :b(4) {};
-	B(int input) :b(input) {};
-	void printa() 
-	{
-		std::cout << b << std::endl;
-	}
-
-	const int& accessB() const
-	 {
-		 return b;
-	 }
-	 
-};
-
-//void A::convert(B objb)
-//{
-//	a = objb.accessB;
-//}
-
 int main()
 {
 
